@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Adam Smith",
+		"designation": "Sr. Developer",
+		"displayPicture": "/assets/pokerFace.png",
+		"referred": false,
+		"interviewed": false,
+		"hired": false,
+		"joined": false,
+		"daysRemainToJoin": 20,
+		"rewarded": false,
+		"rewardAmount": 20000
+	},
+	{
+		"name": "Black Smith",
+		"designation": "Sr. Developer",
+		"displayPicture": "/assets/pokerFace.png",
+		"referred": true,
+		"interviewed": false,
+		"hired": false,
+		"joined": false,
+		"daysRemainToJoin": 20,
+		"rewarded": false,
+		"rewardAmount": 20000
+	},
+	{
+		"name": "White Smith",
+		"designation": "Sr. Developer",
+		"displayPicture": "/assets/pokerFace.png",
+		"referred": true,
+		"interviewed": true,
+		"hired": false,
+		"joined": false,
+		"daysRemainToJoin": 20,
+		"rewarded": false,
+		"rewardAmount": 20000
+	},
+	{
+		"name": "Gray Smith",
+		"designation": "Sr. Developer",
+		"displayPicture": "/assets/pokerFace.png",
+		"referred": true,
+		"interviewed": true,
+		"hired": true,
+		"joined": false,
+		"daysRemainToJoin": 20,
+		"rewarded": false,
+		"rewardAmount": 20000
+	},
+	{
+		"name": "Brown Smith",
+		"designation": "Sr. Developer",
+		"displayPicture": "/assets/pokerFace.png",
+		"referred": true,
+		"interviewed": true,
+		"hired": true,
+		"joined": true,
+		"daysRemainToJoin": 20,
+		"rewarded": false,
+		"rewardAmount": 20000
+	}
+]

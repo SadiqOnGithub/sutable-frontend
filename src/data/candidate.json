@@ -1,0 +1,12 @@
+{
+	"name": "Adam Smith",
+	"designation": "Sr. Developer",
+	"displayPicture": "/assets/pokerFace.png",
+	"referred": 1,
+	"interviewed": 1,
+	"hired": 0,
+	"joined": 0,
+	"daysRemainToJoin": 20,
+	"rewarded": false,
+	"rewardAmount": 20000
+}

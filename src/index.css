@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
+
+/* ==================
+GLOBAL
+=====================*/
+
+* {
+	box-sizing: border-box;
+}
+
+/* :root {
+	--color-2: #f8f8f8;
+	--nav-color: #717171;
+	--title-color: #143774;
+	--font-color: #707070;
+	--aside-border: #ebebeb;
+	--my-white: #fff;
+} */
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	font-size: 1.5rem;
+	font-family: "Lora", serif;
+	font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 400;
+	line-height: 1.75;
+	/* color: var(--font-color); */
+}
+
+@media (min-width: 890px) {
+	body {
+		font-size: 1.6rem;
+	}
+}
+
+/*=================== 
+LAYOUT 
+====================*/
+
+.container {
+	position: relative;
+	width: 90%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+p {
+	max-width: 70ch;
+	line-height: 1.5;
+}
+
+/* ================
+TYPOGRAPHY
+==================*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 400;
+	color: var(--title-color);
+	line-height: 1.3;
+	margin: 4.8rem 0 2.08rem;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 6.734rem;
+}
+
+h2 {
+	font-size: 5.052rem;
+}
+
+h3 {
+	font-size: 3.79rem;
+}
+
+h4 {
+	font-size: 2.843rem;
+}
+
+h5 {
+	font-size: 2.133rem;
+}
+
+small,
+.text_small {
+	font-size: 1.2rem;
+}
+
+p {
+	font-weight: 300;
+	margin: 0;
+}
+
+/* =================
+SECTION__HEAD
+====================*/
+
+.section__head {
+	background-color: hsl(137, 88%, 45%);
+	padding-block: 100px 150px;
+}
+
+.section__head h2{
+	font-weight: 600;
+	color: white;
+}
+
+.search__input {
+	display: block;
+	width: 25%;
+	margin: 8px auto 24px 0;
+	padding: 13px 15px;
+	border: none;
+	border-radius: 0 5px 5px 0;
+}
+
+.search__input::placeholder {
+	font-size: 1.85rem;
+}
+
+/* =================
+SECTION__BODY
+====================*/
+
+.section__main {
+	background-color: hsl(210, 17%, 98%);
+	padding-bottom: 100px;
+}
+
+.section__main__container {
+	position: relative;
+	top: -100px;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 5px;
+	padding: .25em 1em 1em;
+}
+
+/* SECTION-2 HEADERS */
+
+.main_header {
+	font-size: 2.133rem;
+	font-weight: 700;
+	/* display: flex; */
+	/* justify-content: space-between; */
+	margin-block: 1.6em;
+}
+
+.main_header span {
+	display: inline-block;
+}
+
+.block-one {
+	width: 350px;
+	text-align: center;
+}
+
+.block-two {
+	width: calc(100% - 550px);
+}
+
+.block-two .main_header--title {
+	width: 25%;
+}
+
+.block-last {
+	width: 200px;
+}
+
+/* CANDIDATE PROFILES */
+
+.main__candidates-status>div:nth-child(odd) {
+	background-color: hsl(210, 17%, 98%);
+	border-radius: 5px;
+}
+
+.main_candidate-status {
+	display: flex;
+}
+
+.main_candidate-status > div {
+	/* display: inline-block; */
+	min-height: 100px;
+}
+
+/* candidate info -- block one */
+
+.main_candidate-info {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	padding-inline-start: 4em;
+}
+
+.candidate-info--pic {
+	width: 1.5em;
+	background-color: white;
+	border-radius: 50%;
+	aspect-ratio: 1/1;
+	font-size: 2.75em;
+}
+
+.candidate-info--title {
+	padding-inline-start: 1.5em;
+	text-align: start;
+}
+.candidate-info--title > h4 {
+	font-size: 2rem;
+	font-weight: 600;
+	color: hsl(0, 0%, 20%);
+	margin-block: 0;
+}
+.candidate-info--title > p {
+	color: hsl(240, 0%, 52%);
+	font-weight: 500;
+}
+
+/* candidate progress -- block two */
+
+.main_candidate-progress {
+	display: flex;
+	align-items: center;
+	padding-inline-start: 2em;
+}
+
+.candidate__progress-bar-container {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.candidate__progress-bar-container > .part {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 25%;
+}
+
+.progress-bar__circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background-color: hsl(137, 88%, 45%);
+	border-radius: 50%;
+	width: 1.5em;
+	aspect-ratio: 1/1;
+	font-size: 1.5em;
+	z-index: 1;
+}
+
+.progress-bar__circle--gray {
+	background-color: white;
+	border: 5px solid hsl(0, 0%, 60%);
+}
+
+.progress-bar__circle--person {
+	color: black;
+	background-color: white;
+	border: 5px solid hsl(137, 88%, 45%);
+	font-size: 2.75em;
+}
+
+.progress-bar__line {
+	position: absolute;
+	width: 100%;
+	height: 5px;
+}
+
+/* candidate progress -- block two */
+
+.main_candidate-reward {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	color: hsl(0, 0%, 20%);
+}
+
+.main_candidate-reward > p {
+	font-size: 2.4rem;
+	font-weight: 600;
+}
